@@ -1,0 +1,1300 @@
+@media (min-width: 1025px) {
+    button.toggle_Bar {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .cstm_grid_item {
+        width: calc(100% / 4 - 20px);
+    }
+
+    .MuiContainer-root {
+        max-width: 1170px;
+    }
+
+    /* Meassage Page */
+    .chat_contain,
+    .chatList_wpr {
+        max-width: 90%;
+    }
+
+    /* Search Filter */
+    .filter_bar {
+        max-width: 510px;
+        padding: 4px 4px 4px 30px;
+    }
+
+    .pac-target-input {
+        max-width: 90px;
+    }
+
+}
+
+@media(max-width: 1199px) {
+    .cstm_grid_item {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .classCard_con .classCard_content {
+        margin: 0px;
+    }
+
+    .manage_contain .classCard_con .classCard_content {
+        margin-bottom: 20px;
+    }
+
+    /* My Class */
+    .bookCompo_cont {
+        max-width: 100%;
+    }
+
+    .booking_del {
+        gap: 20px;
+    }
+
+
+    /* Class Detail */
+    .class_fetureImg figure:nth-child(2) img {
+        object-fit: contain;
+    }
+
+    /* Message page */
+    .message_wrap .user_img {
+        width: 64px;
+        height: 64px;
+        flex: 0 0 64px;
+    }
+
+    .receiver_msg .user_img {
+        width: 50px;
+        height: 50px;
+        flex: 0 0 50px;
+    }
+
+    /* Setting Page */
+    .tabButtons button {
+        min-height: 55px;
+        font-size: 14px;
+    }
+
+    .tabButtons button img {
+        max-width: 18px;
+        max-height: 18px;
+    }
+
+    .tabButtons .MuiAvatar-circular {
+        margin-right: 8px;
+    }
+
+    .membr_card_dtl p {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    /* Login Page */
+    .twoColumn_itemOne {
+        padding-right: 4%;
+    }
+
+    .social_tabs {
+        gap: 0;
+    }
+
+    .social_tab_item {
+        width: calc(100% / 3 - 10px);
+        padding: 8px 30px;
+        margin: 0 5px;
+    }
+
+    .social_tab_item p {
+        font-size: 12px;
+    }
+
+    /* Welcome Page */
+    .bannerSec {
+        padding: 140px 0;
+    }
+
+    .help_Banner {
+        min-height: auto;
+    }
+
+    .wel_text h2 {
+        font-size: calc(24px + (32 - 24) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    .wel_text h4 {
+        font-size: 15px !important;
+        margin-bottom: 30px;
+    }
+
+    .banner_ctnt button {
+        font-size: 14px;
+    }
+
+    .banner_ctnt button span:not(:empty) {
+        width: 35px;
+        height: 35px;
+    }
+
+    .banner_img img {
+        max-height: 420px;
+    }
+
+    /* Discount Modal */
+    .discount_mdl {
+        min-width: 40vw;
+    }
+
+    .disc_code {
+        padding: 0;
+    }
+
+    /* Pricing */
+    .priceCard,
+    .get_Content,
+    .get_imgContent {
+
+        padding: 0 30px;
+    }
+
+    /* Fiter search */
+
+
+}
+
+@media (max-width: 1024px) {
+
+    /* Header */
+    .filter_bar {
+        display: none;
+    }
+
+    .inst_hdr .edit_icons {
+        margin-right: 0;
+        gap: 10px;
+        flex: 0 0 auto;
+        /* display: none; */
+    }
+
+    .become_instructor button {
+        padding: 8px 12px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    div.user_img img {
+        max-width: 30px !important;
+        max-height: 30px !important;
+    }
+
+    /* .cstmr_hdr .edit_icons {
+        display: block;
+        flex: 0 0 auto;
+    } */
+
+    .edit_icons img {
+        max-width: 22px !important;
+    }
+
+    button.toggle_Bar {
+        max-width: 44px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    button.toggle_Bar img {
+        width: 100%;
+    }
+
+    .hdr_btn_wpr button.btn-designTwo {
+        font-size: 12px;
+        padding: 9px 14px 7px 14px;
+    }
+
+    .hdr_mn button {
+        font-size: 14px;
+    }
+
+    div.clr_text {
+        display: none;
+    }
+
+    /* profile */
+    .prfl_ctnt {
+        gap: 20px;
+    }
+
+    .prfl_ctnt_lft {
+        flex: 0 0 140px;
+        max-width: 140px;
+    }
+
+    .upload h4 {
+        font-size: 18px !important;
+    }
+
+    .edit_name input,
+    .edit_name label,
+    .edit_name input::placeholder {
+        font-size: 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .prfl_ctnt .btn-designthree {
+        margin-top: 0;
+        padding: 10px 35px !important;
+        font-size: 16px !important;
+    }
+
+    /* Class Detail */
+    .absoluteIcon {
+        right: 15px;
+        top: 15px;
+        padding: 6px;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Setting Page*/
+    .tabs_wpr .tabButtons {
+        flex: 0 0 220px;
+    }
+
+    /* ftr sec */
+    .ftr_logo_wpr {
+        padding-right: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* Welcome Page */
+    .numberCard .nmbr {
+        font-size: 50px;
+    }
+
+    .numberCard .fz-22 {
+        font-size: 15px !important;
+    }
+
+    .grow_sec {
+        padding: 80px 0;
+    }
+
+    .carl_bx {
+        padding: 30px;
+    }
+
+    .carl_img {
+        padding: 15px;
+    }
+
+    .carl_img img {
+        max-height: 400px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+@media(max-width: 900px) {
+
+    /* start header */
+    .input_field,
+    .select_btn .MuiInputBase-formControl {
+        margin-bottom: 15px;
+    }
+
+    .select_btn label {
+        font-size: 13px !important;
+    }
+
+    li.MuiMenuItem-root {
+        min-height: 20px;
+        font-size: 13px;
+    }
+
+    /* end header */
+    .reversecol {
+        flex-direction: column-reverse;
+    }
+
+    .email_toogle p,
+    .twoColumn_itemOne input,
+    .line_form input,
+    .ph_input,
+    .select_btn .MuiInputBase-formControl {
+        font-size: 13px !important;
+    }
+
+    .twoColumn_itemOne .MuiIconButton-edgeEnd {
+        padding: 11px 10px 9px
+    }
+
+    .common_auth .heading {
+        font-size: 20px;
+    }
+
+    .common_auth .subHead_text {
+        font-size: 14px;
+    }
+
+    .rmbr_chk_wpr p {
+        font-size: 12px;
+    }
+
+    button.fluid_btn {
+        margin: 15px 0 15px;
+        padding: 10px 16px 9px 16px;
+    }
+
+    .signup_link {
+        padding: 24px 0 8px;
+        font-size: 14px;
+    }
+
+    .signup_link p {
+        font-size: 14px;
+        color: #ff637d;
+    }
+
+    /* Message */
+    .chat_contain,
+    .chatList_wpr {
+        max-width: 100%;
+    }
+
+    .listWrap {
+        max-height: 400px;
+        overflow-y: scroll;
+        padding-right: 10px;
+    }
+
+    .lft_grph {
+        margin-bottom: 20px;
+    }
+
+    .recent_wrap .my_erng {
+        margin-bottom: 0px;
+    }
+
+    .recent_wrap .outer_cls {
+        width: 100%;
+    }
+
+    .recentChat_wrap .nm {
+        font-size: 18px;
+    }
+
+    .recentChat_wrap .lst_msg {
+        font-size: 16px;
+    }
+
+    .recentChat_wrap .time p {
+        font-size: 12px;
+    }
+
+    /* Welcome Page */
+    .carl_content {
+        margin-bottom: 50px;
+        padding: 0 10px 10px;
+    }
+
+    .carl_content h2 {
+        font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320))) !important;
+        margin-bottom: 12px;
+    }
+
+    .carl_content p {
+        margin: 0 0 12px;
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    button.slick-arrow.slick-next,
+    button.slick-arrow.slick-prev {
+        width: 40px;
+        height: 40px;
+        bottom: 0px;
+        transform: translateY(0);
+    }
+
+    button.slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    button.slick-arrow.slick-next {
+        left: auto;
+        right: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .cstm_grid_item {
+        width: calc(100% / 2 - 20px);
+    }
+
+    /* Header */
+    .hdr_btn_wpr button.btn-designTwo {
+        font-size: 10px;
+    }
+
+    /* Login */
+    .twoColumn {
+        flex-direction: column-reverse;
+    }
+
+    .twoColumn_itemTwo {
+        display: none;
+    }
+
+    /* Header section */
+    .hdr_logo img {
+        max-height: 48px !important;
+    }
+
+    button#basic-button {
+        font-size: 0;
+        padding: 0 !important;
+        min-width: auto;
+    }
+
+    button#basic-button svg {
+        display: none;
+    }
+
+    .user_img {
+        margin-right: 0;
+    }
+
+    .become_instructor button.btn-designTwo,
+    .hdr_btn button.btn-designTwo {
+        font-size: 11px;
+        padding: 8px 12px;
+    }
+
+    .MuiMenu-list[aria-labelledby="basic-button"] li {
+        min-height: 30px;
+    }
+
+    /* Profile */
+    .prfl_ctnt {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .prfl_ctnt_rgt {
+        flex: 0 0 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+    .profile_outr .edit_name {
+        padding-right: 20px;
+    }
+
+    /* my class */
+    .toggle_myClassItem {
+        padding: 10px 15px;
+    }
+
+    .divider_after {
+        margin: 30px -20px;
+    }
+
+    .empty_text {
+        margin-top: 20px;
+    }
+
+    button.btn_cancel,
+    button.pay_btn {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+    .classDetail_page .css-r1hick-MuiGrid-root>.MuiGrid-item:nth-child(2) {
+        padding-top: 25px;
+    }
+
+    /* Setting Page */
+    .tabContent_wpr {
+        padding: 20px;
+    }
+
+    .member_card_hdr {
+        padding-right: 100px;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .tabContent_wpr .membr_card_dtl {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tabContent_wpr .edit_icons {
+        margin-top: 15px;
+        padding: 0;
+        flex: 0 0 0;
+    }
+
+    /* Welcome Page */
+    .wlcm_sec .wel_text {
+        max-width: 80%;
+    }
+
+    .benftItem {
+        padding: 10px 12px;
+    }
+
+    .benftIcon {
+        height: 35px;
+        width: 35px;
+    }
+
+    /* Discount modal */
+    .discount_mdl {
+        min-width: 60vw;
+    }
+
+    /* Help Page */
+    .guideTab {
+        font-size: 14px;
+    }
+
+    .guideCard {
+        padding-top: 30px;
+    }
+
+    .guideCode {
+        font-size: 14px !important;
+    }
+
+    .guideContent {
+        padding: 20px 30px;
+    }
+
+    /* Help Query Sec */
+    .help_Banner .wel_text h2 {
+        margin: 30px 0 0;
+    }
+
+    .queryBox {
+        padding: 20px 60px;
+    }
+
+    /* Calender */
+    .react-calendar__navigation button:not(:nth-child(3)),
+    .react-calendar__navigation button:last-child {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .react-calendar__month-view__weekdays__weekday,
+    .react-calendar__navigation button:nth-child(3):not(:last-child) {
+        font-size: 12px;
+    }
+
+    .react-calendar__month-view__days button {
+        padding: 5px;
+        flex-basis: calc(100% / 7 - 5px) !important;
+    }
+
+    button.react-calendar__tile--active abbr {
+        width: 26px;
+        height: 26px;
+    }
+
+    .react-calendar__month-view__days {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Category */
+    .categ_compo {
+        flex-direction: column;
+    }
+
+    .categ_compo .btn_design {
+        width: 100%;
+        padding: 8px 15px !important;
+        height: auto;
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0;
+    }
+
+    /* Class Detail */
+    .time_wrap,
+    .time_book {
+        margin: 10px 0;
+    }
+
+    /* .tb_date {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 0px;
+    } */
+
+    /* .timeClass_view {
+        flex: 0 0 100px;
+    } */
+
+    /* Setting */
+    .tabs_wpr {
+        flex-direction: column;
+    }
+
+    .tabs_wpr .tabButtons {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+
+    .tabButtons button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tabContent_wpr {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .changePass_cont input[type="password"] {
+        padding: 16px 10px 10px;
+        font-size: 14px;
+    }
+
+    .input-group p,
+    button.btn-designTwo {
+        font-size: 10px;
+    }
+
+    .Mui-error {
+        font-size: 12px !important;
+    }
+
+    .tabContent_wpr div[index="2"],
+    .tabContent_wpr div[index="3"],
+    .tabContent_wpr div[index="4"],
+    .tabContent_wpr div[index="5"],
+    .tabContent_wpr div[index="6"],
+    .tabContent_wpr div[index="7"] {
+        padding: 0;
+    }
+
+    .invite_box {
+        padding: 15px 34px;
+        margin: 20px 0;
+        position: relative;
+    }
+
+    .invite_box .invite_desc {
+        max-width: 100%;
+    }
+
+    .invite_code p {
+        font-size: 13px;
+    }
+
+    .about_view p,
+    .terms_view p {
+        font-size: 14px;
+    }
+
+    /* Instructor class detail */
+    /* .classDetail_page .timeClass_view {
+        width: 100%;
+        flex: 0 0 100%;
+        padding: 10px 0px;
+    } */
+
+    /* Footer */
+    .ftr_logo_wpr {
+        padding: 0;
+    }
+
+    .ftr_des {
+        margin: 0 0 20px;
+    }
+
+    .links_wpr {
+        margin-bottom: 30px;
+    }
+
+    .MuiGrid-item:last-child .links_wpr {
+        margin: 0;
+    }
+
+    /* Filter card Catergory */
+    .categCards_wpr {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .catg_card {
+        margin-right: 0;
+    }
+
+    .catg_card img {
+        max-height: 35px;
+    }
+
+    .catg_card p {
+        font-size: 12px;
+    }
+
+    /* Welcome Page */
+    .bannerSec {
+        background-position: left;
+        padding: 80px 0 20px;
+    }
+
+    .help_Banner {
+        padding: 80px 0 120px;
+    }
+
+    .mobile_menu li a {
+        color: var(--text-color);
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ban_ImgWpr {
+        display: none !important;
+    }
+
+    .wel_text h2 {
+        font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1920 - 320))) !important;
+        margin-bottom: 12px;
+    }
+
+    .banner_ctnt {
+        padding: 60px 0;
+    }
+
+    .wlcm_sec .wel_text {
+        max-width: 100%;
+    }
+
+    .grow_sec {
+        padding: 60px 0;
+    }
+
+    .carl_bx {
+        padding: 15px;
+    }
+
+    .wlcm_carsl_sec .carl_bx {
+        padding: 0px;
+    }
+
+
+    .carl_img img {
+        max-height: 240px;
+    }
+
+    /* Notification */
+    .ntf_sec .sub_hdg {
+        margin: 20px 0;
+    }
+
+    .ntf_list {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .ntf_item {
+        padding: 15px 15px 30px;
+    }
+
+    .ntf_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ntf_icon svg {
+        font-size: 18px;
+    }
+
+    .ntf_desc p {
+        font-size: 12px !important;
+    }
+
+    .ntf_time {
+        bottom: 7px;
+        font-size: 10px;
+    }
+
+    /* Help Page */
+    .guideCard {
+        margin-bottom: 30px;
+    }
+
+    .helpEnquery_sec {
+        min-height: 350px;
+    }
+
+    .queryBox {
+        padding: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .queryBox h2 {
+        margin-bottom: 20px;
+    }
+
+    button.new_btn {
+        font-size: 16px;
+    }
+
+    button.new_btn span:not(:empty) {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Downlaod app */
+    .download_sec {
+        padding: 40px 0;
+    }
+
+    .download_sec .banner_ctnt {
+        padding: 40px 0 0;
+    }
+
+    .download_sec .ban_ImgWpr {
+        display: block !important;
+        width: 100%;
+    }
+
+    .download_sec .ban_ImgWpr img {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* header */
+    .hdr_logo,
+    .ftr_logo {
+        flex: 0 0 50px;
+    }
+
+    .inst_dashboard_menu {
+        display: none;
+    }
+
+    #basic-menu .inst_mbl_menu {
+        display: block;
+    }
+
+    /* Login */
+    .verf_wpr .otpInpt_bx input {
+        min-height: 80px;
+        max-width: 80px;
+        margin-right: 10px !important;
+    }
+
+    .verf_wpr .btm {
+        font-size: 18px;
+        padding-bottom: 80px;
+    }
+
+    .twoColumn_itemOne form.form_input ul li {
+        min-height: 25px !important;
+        font-size: 12px !important;
+    }
+
+    /* *** */
+    .cstm_grid {
+        margin: 0;
+    }
+
+    .cstm_grid_item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .myclassCards .cstm_grid_item {
+        width: 100% !important;
+    }
+
+    .myclassCards {
+        max-height: 840px;
+    }
+
+    .classCard_con figure,
+    .classCard_con figure>* {
+        width: 100% !important;
+        max-height: 190px;
+    }
+
+    /* profile */
+    .prfl_ctnt_lft {
+        flex: 0 0 130px;
+        max-width: 130px;
+    }
+
+    .upload h4 {
+        font-size: 16px !important;
+    }
+
+    .profile_outr .edit_name {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0px;
+    }
+
+    /* My Class */
+    .contentImg_left,
+    .contentImg_right {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .booking_del_Form span,
+    .booking_del_Form p,
+    .booking_del_cost h6,
+    .booking_del_cost .fz-18,
+    .toggle_myClassItem p {
+        font-size: 14px !important;
+    }
+
+    .booking_del_cost tr td p {
+        font-size: 14px;
+    }
+
+    .insinfo_tet {
+        padding-right: 10px;
+    }
+
+    .attendes h4 {
+        font-size: 16px !important;
+    }
+
+    .attendes .btn_wpr {
+        flex-direction: column;
+    }
+
+
+    /* Class Detail */
+    .contentImg_Bx {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 13px;
+    }
+
+    .pice_book_text {
+        font-size: 18px;
+    }
+
+    .pice_book button.btn-designthree {
+        padding: 7px 25px;
+        font-size: 14px;
+    }
+
+    .class_decbx {
+        margin-top: 20px;
+    }
+
+    /* Message Page */
+    .chat_contain {
+        min-height: 80vh;
+        padding: 20px 16px;
+    }
+
+    .searchBar input {
+        padding: 11px 20px 9px 45px !important;
+        font-size: 14px;
+    }
+
+    .message_wrap .chat_list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 0;
+        position: relative;
+        gap: 10px;
+    }
+
+    .message_wrap .user_img {
+        width: 44px;
+        height: 44px;
+        flex: 0 0 44px;
+        padding: 3px;
+    }
+
+    .notif_wpr {
+        position: static;
+        padding: 0;
+    }
+
+    .chatNotin {
+        width: 15px;
+        height: 15px;
+        font-size: 8px;
+        border-radius: 50%;
+        top: 18px;
+    }
+
+    .chatSml_dec {
+        font-size: 11px;
+        max-width: 100%;
+    }
+
+    .message_wrap .name_time .fz-14 {
+        font-size: 10px !important;
+    }
+
+    .chat_contain>p {
+        margin-bottom: 20px;
+    }
+
+    .receiver_msg {
+        position: relative;
+        display: flex;
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .receiver_msg p {
+        border-radius: 23px 23px 6px 23px;
+    }
+
+    .receiver_msg.sender_msg p {
+        border-radius: 23px 23px 23px 6px;
+    }
+
+    .receiver_msg.sender_msg .chat_time {
+        justify-content: flex-end;
+    }
+
+    .receiver_msg .user_img {
+        margin-top: 0px;
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+        padding: 2px;
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .receiver_msg.sender_msg .user_img {
+        right: auto;
+        left: 0;
+    }
+
+    .send_input input {
+        padding: 16px 40px 16px 48px;
+    }
+
+    .send_input .add-icon {
+        width: 26px;
+        height: 26px;
+        left: 10px;
+    }
+
+    .send_input figure {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Discount modal */
+    .discount_mdl {
+        min-width: 80vw;
+        padding: 60px 16px 10px;
+    }
+
+    /* ***** */
+    .dcmnt_upld_bx {
+        gap: 12px;
+    }
+
+    /* Dasboard */
+    .lft_grph {
+        padding: 15px;
+    }
+
+    .txt_book {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+}
+
+@media (max-width: 481px) {
+
+    h6,
+    .fz-18 {
+        font-size: 14px !important;
+    }
+
+    .cstm_container {
+        max-width: 95%;
+    }
+
+    /* Login */
+    .main_dialog .MuiDialog-paperWidthXl {
+        margin: 22px;
+    }
+
+    .twoColumn_itemOne {
+        padding: 24px 16px;
+    }
+
+    .social_tab_item {
+        width: 100%;
+        padding: 8px 30px;
+        margin: 0 0 10px;
+    }
+
+    /* Header */
+    .hdr_sec .cstm_container {
+        padding: 0;
+    }
+
+    .hdr_btn_wpr {
+        gap: 8px;
+    }
+
+    .hdr_btn .btn-designTwo {
+        font-size: 11px;
+        padding: 8px 10px;
+    }
+
+    button.mbl_btn {
+        font-size: 0 !important;
+        max-width: 30px !important;
+        padding: 0;
+        min-width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    button.mbl_btn .res_icon {
+        display: block;
+    }
+
+    button.mbl_btn .res_icon img {
+        max-width: 20px;
+        filter: invert(1);
+    }
+
+    /* DashBoard */
+    .time {
+        bottom: 10px;
+        align-items: flex-end;
+    }
+
+    .recentChat_contain {
+        padding: 8px 16px 30px;
+        margin-bottom: 16px;
+    }
+
+    .recentChat_wrap .nm {
+        font-size: 16px;
+    }
+
+    .recentChat_wrap .lst_msg {
+        font-size: 14px;
+    }
+
+    /* My class */
+    .toggle_myClass {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .toggle_myClassItem {
+        width: 100%;
+    }
+
+    .booking_del {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .contact,
+    .detal_divider {
+        margin-bottom: 12px;
+    }
+
+    .booking_del_instr {
+        margin-bottom: 25px;
+    }
+
+    /* Toaster */
+    .Toastify__toast-container {
+        width: 100%;
+        max-width: 250px;
+        right: 0 !important;
+        left: auto !important;
+    }
+
+    /* Manage Class */
+    .manage_wrap .rgt_img .bgnr_mn {
+        flex-direction: column-reverse;
+    }
+
+    .rgt_img .bgnr_rtg img {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .ad_cls_mn {
+        padding: 18px;
+    }
+
+    .tw_bx .strt_dt {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .dt_mn {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .strt_dt {
+        width: 100%
+    }
+
+    .manage_wrap .fluid_btn {
+        margin: 0;
+        padding: 10px;
+    }
+
+    /* Filter Modal */
+    .filter_cont {
+        padding: 16px;
+        width: 265px;
+    }
+
+    .loc_address p,
+    .filter_cont .sort_text p {
+        font-size: 14px;
+    }
+
+    button.apply_btn {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    /* Help Query */
+
+}

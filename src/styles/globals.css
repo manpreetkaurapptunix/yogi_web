@@ -1,0 +1,25 @@
+.strt_dt label {
+  color: #a3a5ac !important;
+}
+
+.strt_dt .compul_s {
+  color: #f44336 !important;
+}
+
+.compul_s {
+  color: #f44336 !important;
+  font-size: 12px;
+}
+
+.compul_gender {
+  color: #f44336;
+  font-size: 12px;
+}
+
+.name_dtl {
+  display: flex;
+}
+
+.recentChat_wrap {
+  display: flex;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_906512" data-name="Group 906512" transform="translate(-28 -600.667)">
+    <g id="Group_62815" data-name="Group 62815">
+      <g id="Group_4646" data-name="Group 4646" transform="translate(-28 546.667)">
+        <g id="ic_audio_const" transform="translate(-76 -162)">
+          <path id="Oval" d="M16,0A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" transform="translate(132 216)" fill="#ff637d"/>
+        </g>
+      </g>
+    </g>
+    <g id="vuesax_linear_sms-tracking" data-name="vuesax/linear/sms-tracking" transform="translate(-584.411 358.257)">
+      <g id="sms-tracking" transform="translate(620 250)">
+        <path id="Vector" d="M0,3.5C0,1.051,1.4,0,3.5,0h7.008c2.1,0,3.5,1.051,3.5,3.5V8.41c0,2.453-1.4,3.5-3.5,3.5H3.5" transform="translate(1.402 2.453)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-2" data-name="Vector" d="M7.008,0,4.815,1.752a2.219,2.219,0,0,1-2.628,0L0,0" transform="translate(4.906 6.308)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H4.205" transform="translate(1.402 11.564)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H2.1" transform="translate(1.402 8.761)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Vector-5" data-name="Vector" d="M0,0H16.82V16.82H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
