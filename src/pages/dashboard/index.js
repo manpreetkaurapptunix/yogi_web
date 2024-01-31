@@ -14,6 +14,7 @@ import { getChatList, insDashAction, tempData } from "../../redux/actions";
 import NativeSelect from "@mui/material/NativeSelect";
 import { InstructorFooter } from "../../layout/InstructorFooter";
 import ChatList from "../../components/messages/ChatList";
+import ChatList from "../../components/messages/ChatList";
 
 Chart.register(CategoryScale);
 
